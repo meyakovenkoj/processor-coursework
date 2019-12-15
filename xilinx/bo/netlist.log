@@ -1,33 +1,37 @@
 Loading - C:\XILINX\ACTIVE\PROJECTS\BO\bo.alb
    Loading library default timing values
-Info 9239: The following node is loadless:
-   NODE: B7, $I22.Q7.
-Info 9239: The following node is loadless:
-   NODE: B6, $I22.Q6.
-Info 9239: The following node is loadless:
-   NODE: B5, $I22.Q5.
 Info 9240: The following node is sourceless:
-   NODE: Y5, $I12.I1, $I11.I1, $I10.I1, $I9.I1, $I8.I1, $I7.I1, $I6.I1, $I5.I1, $I1.CI.
+   NODE: Y7, $I72.CE.
+Info 9240: The following node is sourceless:
+   NODE: Y5, $I8.I1, $I7.I1, $I6.I1, $I5.I1, $I1.CI.
 Info 9240: The following node is sourceless:
    NODE: Y4, $I13.S0, $I14.S0, $I15.S0, $I16.S0.
+Info 9239: The following node is loadless:
+   NODE: R2, $I54.O.
+Info 9239: The following node is loadless:
+   NODE: PR, $I98.Q.
+Info 9239: The following node is loadless:
+   NODE: R1, $I53.O.
+Info 9239: The following node is loadless:
+   NODE: R3, $I55.O.
+Info 9240: The following node is sourceless:
+   NODE: Y8, $I72.CLR.
+Info 9240: The following node is sourceless:
+   NODE: Y6, $I72.L.
+Info 9240: The following node is sourceless:
+   NODE: C, $I72.C, $I2.C, $I73.C, $I98.C, $I75.C, $I96.C.
 Info 9240: The following node is sourceless:
    NODE: Y1, $I2.CE.
 Info 9240: The following node is sourceless:
-   NODE: C, $I2.C, $I22.C, $I4.C.
-Info 9240: The following node is sourceless:
    NODE: LA0, $I2.D0.
-Info 9239: The following node is loadless:
-   NODE: F4, $I28.O.
-Info 9239: The following node is loadless:
-   NODE: F5, $I29.O.
 Info 9239: The following node is loadless:
    NODE: F1, $I30.O.
 Info 9239: The following node is loadless:
    NODE: F2, $I31.O.
 Info 9240: The following node is sourceless:
-   NODE: Y2, $I22.L.
+   NODE: Y2, $I74.S0, $I73.L.
 Info 9240: The following node is sourceless:
-   NODE: Y3, $I22.CE.
+   NODE: Y3, $I73.CE, $I75.CE.
 Info 9240: The following node is sourceless:
    NODE: LB0, $I32.I.
 Info 9240: The following node is sourceless:
@@ -45,31 +49,19 @@ Info 9240: The following node is sourceless:
 Info 9239: The following node is loadless:
    NODE: R0, $I52.O.
 Info 9239: The following node is loadless:
-   NODE: R1, $I53.O.
-Info 9239: The following node is loadless:
-   NODE: R2, $I54.O.
-Info 9239: The following node is loadless:
-   NODE: R3, $I55.O.
+   NODE: ZF, $I96.Q.
 Info 9240: The following node is sourceless:
-   NODE: Y6, $I4.L.
+   NODE: Y9, $I96.CE.
 Info 9240: The following node is sourceless:
-   NODE: Y7, $I4.CE.
-Info 9240: The following node is sourceless:
-   NODE: Y8, $I4.CLR.
-Loading - ADD8
+   NODE: Y10, $I98.CE.
+Loading - ADD4
    Loading library default timing values
 Loading - FD4CE
    Loading library default timing values
-Loading - SR8CLE
+Loading - SR4CLE
    Loading library default timing values
 Loading - M2_1
    Loading library default timing values
-Info 9240: The following node is sourceless:
-   NODE:       Y8,       $I4/CLR
-Info 9240: The following node is sourceless:
-   NODE:       Y7,       $I4/CE
-Info 9240: The following node is sourceless:
-   NODE:       Y6,       $I4/L,       $I4/MQ4/S0,       $I4/MQ5/S...
 Info 9240: The following node is sourceless:
    NODE:       LA1,       $I2/D1
 Info 9240: The following node is sourceless:
@@ -77,26 +69,30 @@ Info 9240: The following node is sourceless:
 Info 9240: The following node is sourceless:
    NODE:       LA3,       $I2/D3
 Info 9240: The following node is sourceless:
-   NODE:       Y3,       $I22/CE
+   NODE:       Y3,       $I73/CE
 Info 9240: The following node is sourceless:
-   NODE:       Y2,       $I22/L,       $I22/MQ4/S0,       $I22/MQ5/S...
+   NODE:       Y2,       $I74/S0,       $I73/L,       $I73/MQ3/S0,       $I73/MQ2/S...
 Info 9240: The following node is sourceless:
    NODE:       LA0,       $I2/D0
 Info 9240: The following node is sourceless:
-   NODE:       C,       $I2/C,       $I22/C
-Info 9240: The following node is sourceless:
    NODE:       Y1,       $I2/CE
+Info 9240: The following node is sourceless:
+   NODE:       C,       $I72/C,       $I2/C
+Info 9240: The following node is sourceless:
+   NODE:       Y6,       $I72/L,       $I72/MQ3/S0,       $I72/MQ2/S0,       $I72/MQ1/S0
+Info 9240: The following node is sourceless:
+   NODE:       Y8,       $I72/CLR
 Info 9240: The following node is sourceless:
    NODE:       Y4,       $I13/S0,       $I14/S0,       $I15/S0,       $I16/S0
 Info 9240: The following node is sourceless:
    NODE:       Y5,       $I1/CI
-Info 9239: The following node is loadless:
-   NODE:       B7,       $I22/Q7
+Info 9240: The following node is sourceless:
+   NODE:       Y7,       $I72/CE
 ===============================
 Memory usage statistics:
-    Total number of allocated memory blocks: 173 (0)
+    Total number of allocated memory blocks: 149 (0)
     Total number of memory reallocations: 3
     Total length of memory used to load the netlist: 256 kB (0)
     Number of system memory blocks (total/long): 1/0
-Netlist loaded in: 1 seconds
+Netlist loaded in: 0 seconds
 ===============================

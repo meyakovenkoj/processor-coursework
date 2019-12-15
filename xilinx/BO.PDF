@@ -40,11 +40,15 @@ netlist.log=Simulator Netlist Log
 bo=
 mul=
 send=
-[FILE7]
-scan_time=1575847161
+mul2=
+mul3=
+send2=
+send3=
 [APP_95]
 lid=0
 oid=0
 source=C:\XILINX\ACTIVE\PROJECTS\BO\BO1.SCH
+[FILE7]
+scan_time=1576419765
 [sc_desk]
 desk00=C:\XILINX\ACTIVE\PROJECTS\BO\BO1.SCH, 0, 0, 1172, 566, 1
