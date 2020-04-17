@@ -1,0 +1,86 @@
+Loading - C:\DOCUME~1\N\DESKTOP\PROCESS\process.alb
+   Loading library default timing values
+Info 9240: The following node is sourceless:
+   NODE: C, RR.C, RB.C, RA.C, TPR.C, $I39.C, $I38.C, $I36.C, $I35.C, $I37.C.
+Info 9240: The following node is sourceless:
+   NODE: B0, RB.D0.
+Info 9240: The following node is sourceless:
+   NODE: B3, RB.D3.
+Info 9240: The following node is sourceless:
+   NODE: B2, RB.D2.
+Info 9240: The following node is sourceless:
+   NODE: B1, RB.D1.
+Info 9240: The following node is sourceless:
+   NODE: A0, RA.D0.
+Info 9240: The following node is sourceless:
+   NODE: A3, RA.D3.
+Info 9240: The following node is sourceless:
+   NODE: A2, RA.D2.
+Info 9240: The following node is sourceless:
+   NODE: A1, RA.D1.
+Info 9239: The following node is loadless:
+   NODE: PR, TPR.Q.
+Info 9239: The following node is loadless:
+   NODE: R3, $I28.O.
+Info 9239: The following node is loadless:
+   NODE: R2, $I29.O.
+Info 9239: The following node is loadless:
+   NODE: R1, $I30.O.
+Info 9239: The following node is loadless:
+   NODE: R0, $I31.O.
+Info 9240: The following node is sourceless:
+   NODE: CLR, $I39.CLR.
+Info 9240: The following node is sourceless:
+   NODE: SNO, $I41.I1, $I36.CLR, $I35.CLR, $I38.CLR, $I37.PRE.
+Info 9240: The following node is sourceless:
+   NODE: COP, $I42.I0, $I54.I0, $I56.I1, $I55.I1, $I59.I0, $I60.I0, $I60.I2, $I67.I1, $I65.I0, $I69.I0, $I69.I2, $I73.I1, $I71.I0, $I77.I0.
+Loading - FD4CE
+   Loading library default timing values
+Loading - SR5CLE
+   Loading library default timing values
+Loading - M2_1
+   Loading library default timing values
+Loading - ADD4
+   Loading library default timing values
+Loading - SR4CLE
+   Loading library default timing values
+Loading - CB2CE
+   Loading library default timing values
+Loading - FTCE
+   Loading library default timing values
+Loading - SOP3
+   Loading library default timing values
+Loading - SOP4B1
+   Loading library default timing values
+Info 9240: The following node is sourceless:
+   NODE:       COP,       $I60/I...
+Info 9240: The following node is sourceless:
+   NODE:       SNO,       $I38/CLR,       $I38/Q0/CLR,       $I38/Q1/CLR
+Info 9240: The following node is sourceless:
+   NODE:       CLR,       $I39/CLR
+Info 9240: The following node is sourceless:
+   NODE:       A1,       RA/D1
+Info 9240: The following node is sourceless:
+   NODE:       A2,       RA/D2
+Info 9240: The following node is sourceless:
+   NODE:       A3,       RA/D3
+Info 9240: The following node is sourceless:
+   NODE:       A0,       RA/D0
+Info 9240: The following node is sourceless:
+   NODE:       B1,       RB/D1,       RB/$I48/D1
+Info 9240: The following node is sourceless:
+   NODE:       B2,       RB/D2,       RB/$I49/D1
+Info 9240: The following node is sourceless:
+   NODE:       B3,       RB/D3,       RB/$I56/D1
+Info 9240: The following node is sourceless:
+   NODE:       B0,       RB/D0,       RB/$I47/D1
+Info 9240: The following node is sourceless:
+   NODE:       C,       RR/C,       RB/...
+===============================
+Memory usage statistics:
+    Total number of allocated memory blocks: 244 (0)
+    Total number of memory reallocations: 3
+    Total length of memory used to load the netlist: 256 kB (0)
+    Number of system memory blocks (total/long): 1/0
+Netlist loaded in: 1 seconds
+===============================
