@@ -1,0 +1,35 @@
+# Xilinx CORE Generator 4.1i
+# User = Ivan
+# Initializing default project...
+# Loading plug-ins...
+# Initializing GUI...
+SETPROJECT C:\Users\Ivan\Desktop\Processor\labs\process
+# busformat=BusFormatAngleBracket
+# designflow=Schematic
+# expandedprojectpath=C:\Users\Ivan\Desktop\Processor\labs\process
+# flowvendor=Foundation
+# formalverification=None
+# simulationoutputproducts=VHDL Verilog
+# xilinxfamily=SPARTAN
+# outputoption=DesignFlow
+# overwritefiles=Default
+# expandedprojectpath=C:\Users\Ivan\Desktop\Processor\labs\process
+# Set current Project to C:\Users\Ivan\Desktop\Processor\labs\process
+# Loading settings from "C:\USERS\IVAN\DESKTOP\PROCES~1\LABS\PROCESS\core.ini"
+# Xilinx CORE Generator
+SET FoundationPath = C:\Xilinx\
+SET XilinxFamily = SPARTAN
+SET BusFormat = BusFormatAngleBracket
+SET DesignFlow = Schematic
+SET FlowVendor = Foundation
+SET SimulationOutputProducts = VHDL Verilog
+
+# Finished processing "C:\USERS\IVAN\DESKTOP\PROCES~1\LABS\PROCESS\core.ini"
+SELECT Single_Port_Block_Memory Virtex Xilinx,_Inc. 3.1
+SELECT Block_Memory_Single_Port_Virtex_II Virtex2 Xilinx,_Inc. 2.0
+SELECT Distributed_Memory Virtex Xilinx,_Inc. 4.1
+SELECT Dual_Port_Block_Memory Virtex Xilinx,_Inc. 3.1
+SELECT Registered_DualPort_RAM SPARTAN Xilinx,_Inc. 1.0
+SELECT Registered_ROM SPARTAN Xilinx,_Inc. 1.0
+SELECT Registered_SinglePort_RAM SPARTAN Xilinx,_Inc. 1.0
+END

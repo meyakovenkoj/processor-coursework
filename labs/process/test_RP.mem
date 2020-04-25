@@ -1,0 +1,16 @@
+;
+; memfile test_RP.mem for LogiBLOX symbol RP
+; Created on Saturday, April 18, 2020 03:05:47
+;
+; Header Section
+RADIX 10
+DEPTH 16
+WIDTH 4
+DEFAULT 0
+;
+; Data Section
+; Specifies data to be stored in different addresses
+; e.g., DATA 0:A, 1:0
+RADIX 16
+DATA 4, 5, D, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+; end of LogiBLOX memfile

@@ -12,9 +12,9 @@ FndTypeE=F4.1i
 top_level=schematic
 library_net=ON
 sim_mode=FUNC
-lib_order=1045 133 167
+lib_order=1034 133 167
 [libraries]
-1045= 
+1034= 
 133=c:\xilinx\active\syslib\simprims
 167=c:\xilinx\active\syslib\spartan
 [xilinx]
@@ -29,15 +29,17 @@ part=S10PC84-3
 external=FALSE
 [Schematic]
 Table01=Project
-Table02=Sheet
+Table02=Macro
 Table03=Date
 Table04=Date Last Modified
 [sheets]
 process1=
 process3=
+process5=
 [Log]
 netlist.log=Simulator Netlist Log
 exp_EDIF.log=Export netlist to EDIF 200
+imp_EDIF.log=Import EDIF netlist
 [timings]
 process=
 mul1=
@@ -51,12 +53,31 @@ mul7=
 muu=
 muu2=
 muu3=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[OpenDoc]
+hde/OP=0,0,66,66,1602,891,C:\Documents and Settings\n\Desktop\labs\OP\OP.vhi
+[FILE7]
+scan_time=1587194306
 [APP_95]
 lid=0
 oid=0
-source=C:\DOCUME~1\N\DESKTOP\PROCESS\process3.sch
-[FILE7]
-scan_time=1587142921
+source=C:\DOCUME~1\N\DESKTOP\LABS\PROCESS\PROCESS5.SCH
 [sc_desk]
-desk00=C:\DOCUME~1\N\DESKTOP\PROCESS\PROCESS1.SCH, 0, 0, 1216, 495, 1
-desk01=C:\DOCUME~1\N\DESKTOP\PROCESS\PROCESS3.SCH, 22, 22, 1231, 465, 0
+desk00=C:\DOCUME~1\N\DESKTOP\LABS\PROCESS\PROCESS5.SCH, 44, 44, 1729, 722, 1
+desk01=C:\DOCUME~1\N\DESKTOP\LABS\PROCESS\PROCESS3.SCH, 22, 22, 1231, 465, 0
+desk02=C:\DOCUME~1\N\DESKTOP\LABS\PROCESS\PROCESS1.SCH, 0, 0, 1216, 495, 0

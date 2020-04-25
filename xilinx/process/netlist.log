@@ -1,57 +1,23 @@
-Loading - C:\DOCUME~1\N\DESKTOP\PROCESS\process.alb
-   Loading library default timing values
 Info 9240: The following node is sourceless:
-   NODE: C, RR.C, RB.C, RA.C, TPR.C, $I39.C, $I38.C, $I36.C, $I35.C, $I37.C.
+   NODE:       DD0,       H1/D0,       H1/$I94/D,       H1/$I94/$1I30/D1
 Info 9240: The following node is sourceless:
-   NODE: B0, RB.D0.
+   NODE:       DD1,       H1/D1,       H1/$I95/D,       H1/$I95/$1I30/D1
 Info 9240: The following node is sourceless:
-   NODE: B3, RB.D3.
+   NODE:       DD2,       H1/D2,       H1/$I96/D,       H1/$I96/$1I30/D1
 Info 9240: The following node is sourceless:
-   NODE: B2, RB.D2.
+   NODE:       DD3,       H1/D3,       H1/$I97/D,       H1/$I97/$1I30/D1
 Info 9240: The following node is sourceless:
-   NODE: B1, RB.D1.
-Info 9240: The following node is sourceless:
-   NODE: A0, RA.D0.
-Info 9240: The following node is sourceless:
-   NODE: A3, RA.D3.
-Info 9240: The following node is sourceless:
-   NODE: A2, RA.D2.
-Info 9240: The following node is sourceless:
-   NODE: A1, RA.D1.
+   NODE:       DD4,       H1/D4,       H1/$I98/D,       H1/$I98/$1I30/D1
 Info 9239: The following node is loadless:
-   NODE: PR, TPR.Q.
-Info 9239: The following node is loadless:
-   NODE: R3, $I28.O.
-Info 9239: The following node is loadless:
-   NODE: R2, $I29.O.
-Info 9239: The following node is loadless:
-   NODE: R1, $I30.O.
-Info 9239: The following node is loadless:
-   NODE: R0, $I31.O.
+   NODE:       CEOO,       H1/CEO
 Info 9240: The following node is sourceless:
-   NODE: CLR, $I39.CLR.
+   NODE:       CEE,       H1/CE
 Info 9240: The following node is sourceless:
-   NODE: SNO, $I41.I1, $I36.CLR, $I35.CLR, $I38.CLR, $I37.PRE.
+   NODE:       LL,       H1/L,       H1/$I98/L,       H1/$I96/L,       H1/$I94/L,       H1/$I95/...
 Info 9240: The following node is sourceless:
-   NODE: COP, $I42.I0, $I54.I0, $I56.I1, $I55.I1, $I59.I0, $I60.I0, $I60.I2, $I67.I1, $I65.I0, $I69.I0, $I69.I2, $I73.I1, $I71.I0, $I77.I0.
-Loading - FD4CE
-   Loading library default timing values
-Loading - SR5CLE
-   Loading library default timing values
-Loading - M2_1
-   Loading library default timing values
-Loading - ADD4
-   Loading library default timing values
-Loading - SR4CLE
-   Loading library default timing values
-Loading - CB2CE
-   Loading library default timing values
-Loading - FTCE
-   Loading library default timing values
-Loading - SOP3
-   Loading library default timing values
-Loading - SOP4B1
-   Loading library default timing values
+   NODE:       NCLR,       H1/CLR,       H1/$I98/CLR,       H1/$I96/CLR,       H1/$I94/CLR,       H1/$I95/CLR
+Info 9240: The following node is sourceless:
+   NODE:       CLK,       H1/C,       H1/$I98/C,       H1/$I96/C,       H1/$I94/C,       H1/$I95/C
 Info 9240: The following node is sourceless:
    NODE:       COP,       $I60/I...
 Info 9240: The following node is sourceless:
@@ -78,9 +44,9 @@ Info 9240: The following node is sourceless:
    NODE:       C,       RR/C,       RB/...
 ===============================
 Memory usage statistics:
-    Total number of allocated memory blocks: 244 (0)
-    Total number of memory reallocations: 3
-    Total length of memory used to load the netlist: 256 kB (0)
+    Total number of allocated memory blocks: 24 (0)
+    Total number of memory reallocations: 0
+    Total length of memory used to load the netlist: 0 kB (0)
     Number of system memory blocks (total/long): 1/0
-Netlist loaded in: 1 seconds
+Netlist loaded in: 0 seconds
 ===============================
