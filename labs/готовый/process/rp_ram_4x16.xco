@@ -1,0 +1,23 @@
+# Xilinx CORE Generator 4.1i
+# Username = n
+# COREGenPath = C:\Xilinx\coregen
+# FoundationPath = C:\Xilinx\
+# ProjectPath = C:\Documents and Settings\n\Desktop\labs\process
+# ExpandedProjectPath = C:\Documents and Settings\n\Desktop\labs\process
+# OverwriteFiles = Default
+SET BusFormat = BusFormatAngleBracket
+SET SimulationOutputProducts = VHDL Verilog
+SET XilinxFamily = SPARTAN
+SET OutputOption = DesignFlow
+SET DesignFlow = Schematic
+SET FlowVendor = Foundation
+SET FormalVerification = None
+SELECT Registered_SinglePort_RAM SPARTAN Xilinx,_Inc. 1.0
+CSET depth = 16
+CSET memdata = 4,5,D,0,0,0,0,0,0,0,0,0,0,0,0,0
+CSET component_name = rp_ram_4x16
+CSET signed = true
+CSET default = 0
+CSET radix = 16
+CSET data_width = 4
+GENERATE
