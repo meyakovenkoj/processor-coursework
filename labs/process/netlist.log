@@ -3,8 +3,6 @@ Loading - C:\USERS\IVAN\DESKTOP\PROCES~1\LABS\PROCESS\process.alb
 Info 9240: The following node is sourceless:
    NODE: C, RR.C, RB.C, RA.C, TPR.C, $I39.C, $I38.C, $I36.C, $I35.C, $I37.C, BR2.C, OP.WR_CLK, RP.WR_CLK, BR1.C, RIA.C, RK1.C...
 Info 9239: The following node is loadless:
-   NODE: PR, TPR.Q.
-Info 9239: The following node is loadless:
    NODE: R3, $I28.O.
 Info 9239: The following node is loadless:
    NODE: R2, $I29.O.
@@ -13,43 +11,11 @@ Info 9239: The following node is loadless:
 Info 9239: The following node is loadless:
    NODE: R0, $I31.O.
 Info 9240: The following node is sourceless:
-   NODE: CLR, $I39.CLR, CK.CLR.
-Info 9240: The following node is sourceless:
-   NODE: SNO, $I41.I1, $I36.CLR, $I35.CLR, $I38.CLR, $I37.PRE.
-Info 9240: The following node is sourceless:
-   NODE: YC10, RK1.CE.
-Info 9240: The following node is sourceless:
-   NODE: YC7, KS_6.S0.
-Info 9240: The following node is sourceless:
-   NODE: YC12, RK3.CE.
-Info 9240: The following node is sourceless:
-   NODE: YC6, RIA.CE.
-Info 9240: The following node is sourceless:
-   NODE: YC3, KS_4.S1.
-Info 9240: The following node is sourceless:
-   NODE: YC4, KS_5.S0.
-Info 9240: The following node is sourceless:
-   NODE: YC15, RP.WR_EN.
-Info 9240: The following node is sourceless:
-   NODE: YC13, RK4.CE.
-Info 9240: The following node is sourceless:
-   NODE: YC1, CK.CE.
-Info 9240: The following node is sourceless:
-   NODE: YC2, CK.L.
-Info 9240: The following node is sourceless:
-   NODE: YC14, OP.WR_EN.
-Info 9240: The following node is sourceless:
-   NODE: YC11, RK2.CE.
-Info 9240: The following node is sourceless:
-   NODE: YC5, KS_5.S1.
-Info 9240: The following node is sourceless:
-   NODE: YC8, BR2.CE.
-Info 9240: The following node is sourceless:
-   NODE: YC9, BR1.CE.
-Info 9239: The following node is loadless:
-   NODE: COP1, $I159.O.
+   NODE: CLR, $I39.CLR, CK.CLR, $I185.CLR, RMA.CLR.
 Info 9239: The following node is loadless:
    NODE: RK3, RK4.Q3.
+Info 9240: The following node is sourceless:
+   NODE: START, $I178.I0.
 Loading - FD4CE
    Loading library default timing values
 Loading - SR5CLE
@@ -88,49 +54,19 @@ Loading - RP
    Forcing zero-delay default timing values
 Loading - OP
    Forcing zero-delay default timing values
+Loading - ROM
+   Forcing zero-delay default timing values
 Info 9239: The following node is loadless:
    NODE:       RK3,       RK4/Q3
 Info 9240: The following node is sourceless:
-   NODE:       YC9,       BR1/CE
-Info 9240: The following node is sourceless:
-   NODE:       YC8,       BR2/CE
-Info 9240: The following node is sourceless:
-   NODE:       YC5,       KS_5/S1,       KS_5/$I106/S0,       KS_5/$I112/S0,       KS_5/$I111/S0
-Info 9240: The following node is sourceless:
-   NODE:       YC11,       RK2/CE
-Info 9240: The following node is sourceless:
-   NODE:       YC14,       OP/WR_EN
-Info 9240: The following node is sourceless:
-   NODE:       YC2,       CK/L,       CK/$I98/L,       CK/$I96/L,       CK/$I94/L,       CK/$I95/...
-Info 9240: The following node is sourceless:
-   NODE:       YC1,       CK/CE
-Info 9240: The following node is sourceless:
-   NODE:       YC13,       RK4/CE
-Info 9240: The following node is sourceless:
-   NODE:       YC15,       RP/WR_EN
-Info 9240: The following node is sourceless:
-   NODE:       YC4,       KS_5/S0,       KS_5/$I110/S0,       KS_5/$I109/S0,       KS_5/$I108/S0
-Info 9240: The following node is sourceless:
-   NODE:       YC3,       KS_4/S1,       KS_4/$I106/S0,       KS_4/$I112/S0,       KS_4/$I111/S0
-Info 9240: The following node is sourceless:
-   NODE:       YC6,       RIA/CE
-Info 9240: The following node is sourceless:
-   NODE:       YC12,       RK3/CE
-Info 9240: The following node is sourceless:
-   NODE:       YC7,       KS_6/S0,       KS_6/$I145/S0,       KS_6/$I144/S0,       KS_6/$I143/S0
-Info 9240: The following node is sourceless:
-   NODE:       YC10,       RK1/CE
-Info 9240: The following node is sourceless:
-   NODE:       SNO,       $I38/CLR,       $I38/Q0/CLR,       $I38/Q1/CLR
-Info 9240: The following node is sourceless:
-   NODE:       CLR,       $I39/CLR,       CK/CLR,       CK/$I98/CLR,       CK/$I96/CLR,       CK/$I94/CL...
+   NODE:       CLR,       $I39/CLR,       CK/CLR,       RMA/CLR
 Info 9240: The following node is sourceless:
    NODE:       C
 ===============================
 Memory usage statistics:
-    Total number of allocated memory blocks: 616 (0)
+    Total number of allocated memory blocks: 640 (0)
     Total number of memory reallocations: 3
     Total length of memory used to load the netlist: 512 kB (0)
     Number of system memory blocks (total/long): 2/0
-Netlist loaded in: 4 seconds
+Netlist loaded in: 3 seconds
 ===============================
