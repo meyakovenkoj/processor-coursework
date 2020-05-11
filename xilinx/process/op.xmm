@@ -1,4 +1,4 @@
-# op.xmm created by ngd2edif E.30 on [Mon Apr 20 10:17:09 2020] .
+# op.xmm created by ngd2edif E.32 on [Sat Apr 25 13:29:44 2020] .
 # 
 # This file contains information on the initial contents of each
 # RAM primitive. Depending on your simulation interface, the data
@@ -14,7 +14,7 @@
 # the initial value for that primitive, expressed as a hexadecimal
 # number (the same convention used for INIT properties).
 # 
-X_RAMS16  MEM0_0  0x6309
+X_RAMS16  MEM0_0  0x6001
 X_RAMS16  MEM1_0  0x63F0
 X_RAMS16  MEM2_0  0x4306
 X_RAMS16  MEM3_0  0x425C
